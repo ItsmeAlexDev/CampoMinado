@@ -24,6 +24,10 @@ O tamanho da grade do jogo e a contagem de minas podem ser ajustados no código 
 ## Estrutura de Arquivos
 ```
 CampoMinado/
+├── assets/    #assets para a página no github
+│   ├── game.png
+│   ├── loses.png
+│   └── wins.png
 ├── ms/    #arquivos do projeto
 │   ├── model/
 │   │   ├── Campo.java
@@ -35,10 +39,6 @@ CampoMinado/
 │       ├── CampoBotao.java
 │       ├── MainFrame.java
 │       └── TabuleiroPanel.java
-├── assets/    #assets para a página no github
-│   ├── game.png
-│   ├── loses.png
-│   └── wins.png
 └── README.md
 ```
 
