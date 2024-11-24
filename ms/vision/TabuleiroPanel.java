@@ -30,9 +30,9 @@ public class TabuleiroPanel extends JPanel {
 		Tabuleiro.registrarObservador(e -> {
 			invokeLater(() -> {
 				if (e.Ganhou()) {
-					showMessageDialog(this, "Você Ganhou o jogo");
+					showMessageDialog(this, "Você GANHOU!");
 				} else {
-					showMessageDialog(this, "YOU LOST!");
+					showMessageDialog(this, "Você PERDEU!");
 				}
 				Tabuleiro.reiniciarJogo();
 			});
